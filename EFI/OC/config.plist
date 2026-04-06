@@ -12,7 +12,7 @@
                 <key>Enabled</key>
                 <true/>
                 <key>Path</key>
-                <string>SSDT-PLUG.dsl</string>
+                <string>SSDT-CPUR.aml</string>
             </dict>
             <dict>
                 <key>Comment</key>
@@ -20,7 +20,7 @@
                 <key>Enabled</key>
                 <true/>
                 <key>Path</key>
-                <string>SSDT-EC-USBX.dsl</string>
+                <string>SSDT-EC-USBX.aml</string>
             </dict>
         </array>
         <key>Delete</key>
