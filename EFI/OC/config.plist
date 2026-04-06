@@ -290,17 +290,17 @@
 			<key>HideAuxiliary</key>
 			<false/>
 			<key>HideSelf</key>
-			<true/>
+			<false/>
 			<key>PickerAttributes</key>
 			<integer>0</integer>
 			<key>PickerMode</key>
 			<string>Builtin</string>
 			<key>PollAppleHotKeys</key>
-			<false/>
+			<true/>
 			<key>ShowPicker</key>
 			<true/>
 			<key>Timeout</key>
-			<integer>5</integer>
+			<integer>10</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
