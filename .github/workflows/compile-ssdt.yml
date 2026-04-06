@@ -1,0 +1,40 @@
+name: Compile SSDT
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.dsl'
+  pull_request:
+    branches: [main]
+    paths:
+      - '**.dsl'
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Install iasl
+        run: sudo apt-get update && sudo apt-get install -y acpica-tools
+      
+      - name: Compile SSDT-PLUG
+        run: |
+          cd EFI/OC/ACPI
+          if [ -f SSDT-PLUG.dsl ]; then
+            iasl SSDT-PLUG.dsl
+          fi
+      
+      - name: Compile SSDT-EC-USBX
+        run: |
+          cd EFI/OC/ACPI
+          if [ -f SSDT-EC-USBX.dsl ]; then
+            iasl SSDT-EC-USBX.dsl
+          fi
+      
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: compiled-ssdts
+          path: EFI/OC/ACPI/*.aml
