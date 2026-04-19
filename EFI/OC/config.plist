@@ -489,8 +489,6 @@
 				<data>
 				//////8A
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -529,8 +527,6 @@
 				<data>
 				//////8A
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -568,8 +564,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -608,8 +602,6 @@
 				<data>
 				//////8=
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -646,8 +638,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -684,8 +674,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -722,8 +710,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -760,8 +746,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -798,8 +782,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -836,8 +818,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -874,8 +854,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -912,8 +890,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -951,8 +927,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -990,8 +964,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1029,8 +1001,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1069,8 +1039,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1107,8 +1075,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1147,8 +1113,6 @@
 				<data>
 				AAAPAA==
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1187,8 +1151,6 @@
 				<data>
 				AAAPAA==
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1227,8 +1189,6 @@
 				<data>
 				AAD/AA==
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1267,8 +1227,6 @@
 				<data>
 				AAAAAAAAAAAAAAAAAAD///////8=
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1307,8 +1265,6 @@
 				<data>
 				AAAAAAAAAP///////w==
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1346,8 +1302,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1385,8 +1339,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1424,8 +1376,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1463,8 +1413,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1483,8 +1431,6 @@
 				<data>
 				SACQBAAADwAAAAAA
 				</data>
-				<key>Identifier</key>
-				<string></string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -1502,8 +1448,6 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
-				<key>Size</key>
-				<integer>0</integer>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1577,8 +1521,6 @@
 		<dict>
 			<key>ConsoleAttributes</key>
 			<integer>0</integer>
-			<key>HibernateMode</key>
-			<string>None</string>
 			<key>HibernateSkipsPicker</key>
 			<false/>
 			<key>HideAuxiliary</key>
@@ -1750,7 +1692,7 @@
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
-			<false/>
+			<integer>0</integer>
 			<key>MLB</key>
 			<string>F5KZ47N7UC40HSS288</string>
 			<key>MaxBIOSVersion</key>
@@ -2012,11 +1954,7 @@
 			<false/>
 			<key>ActivateHpetSupport</key>
 			<false/>
-			<key>AvoidHighAlloc</key>
-			<false/>
 			<key>DisableSecurityPolicy</key>
-			<false/>
-			<key>DisableSingleMapping</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
 			<true/>
@@ -2044,8 +1982,6 @@
 			<false/>
 			<key>RequestBootVarRouting</key>
 			<true/>
-			<key>RequestUparGradBootArgument</key>
-			<false/>
 			<key>ResizeAppleGpuBars</key>
 			<integer>-1</integer>
 			<key>ResizeGpuBars</key>
