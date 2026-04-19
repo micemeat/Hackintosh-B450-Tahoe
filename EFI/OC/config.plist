@@ -168,7 +168,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string>com.reddit.barbarian.Lilu v1.7.2</string>
+				<string>as.vit9696.Lilu v1.7.3</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -178,7 +178,7 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
-				<string>Lilu.kext/Contents/Info.plist</string>
+				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -186,7 +186,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string>as.vit9696.VirtualSMC v1.3.7</string>
+				<string>as.vit9696.VirtualSMC v1.3.8</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -196,7 +196,7 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
-				<string>VirtualSMC.kext/Contents/Info.plist</string>
+				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -204,7 +204,7 @@
 				<key>BundlePath</key>
 				<string>SMCSuperIO.kext</string>
 				<key>Comment</key>
-				<string>as.vit9696.SMCSuperIO v1.3.7</string>
+				<string>ru.joedm.SMCSuperIO v1.3.8</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -214,7 +214,7 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
-				<string>SMCSuperIO.kext/Contents/Info.plist</string>
+				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -222,7 +222,7 @@
 				<key>BundlePath</key>
 				<string>SMCAMDProcessor.kext</string>
 				<key>Comment</key>
-				<string>SMC AMD Processor plugin</string>
+				<string>wtf.spinach.SMCAMDProcessor v1</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -232,7 +232,7 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
-				<string>SMCAMDProcessor.kext/Contents/Info.plist</string>
+				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -240,7 +240,7 @@
 				<key>BundlePath</key>
 				<string>RadeonSensor.kext</string>
 				<key>Comment</key>
-				<string>com.osy86.RadeonSensor v1.1.0</string>
+				<string>com.ChefKissInc.RadeonSensor v1.1.0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -250,7 +250,7 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
-				<string>RadeonSensor.kext/Contents/Info.plist</string>
+				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -258,7 +258,7 @@
 				<key>BundlePath</key>
 				<string>SMCRadeonGPU.kext</string>
 				<key>Comment</key>
-				<string>SMC Radeon GPU plugin</string>
+				<string>com.ChefKissInc.SMCRadeonGPU v1.1.0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -268,7 +268,7 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
-				<string>SMCRadeonGPU.kext/Contents/Info.plist</string>
+				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -276,7 +276,7 @@
 				<key>BundlePath</key>
 				<string>SMCRadeonSensors.kext</string>
 				<key>Comment</key>
-				<string>com.windsurfer.SMCRadeonSensors v2.4.0</string>
+				<string>org.ChefKiss.SMCRadeonSensors v2.4.0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -286,7 +286,7 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
-				<string>SMCRadeonSensors.kext/Contents/Info.plist</string>
+				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -294,7 +294,7 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>com.lvs1974.WhateverGreen v1.7.0</string>
+				<string>as.vit9696.WhateverGreen v1.7.1</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -304,7 +304,7 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
-				<string>WhateverGreen.kext/Contents/Info.plist</string>
+				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -312,7 +312,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>as.vit9696.AppleALC v1.9.7</string>
+				<string>as.vit9696.AppleALC v1.9.8</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -322,7 +322,7 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
-				<string>AppleALC.kext/Contents/Info.plist</string>
+				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -330,7 +330,7 @@
 				<key>BundlePath</key>
 				<string>RealtekRTL8111.kext</string>
 				<key>Comment</key>
-				<string>com.mieze.RealtekRTL8111 v2.4.2</string>
+				<string>com.insanelymac.RealtekRTL8111 v2.4.2</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -340,7 +340,7 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
-				<string>RealtekRTL8111.kext/Contents/Info.plist</string>
+				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -348,7 +348,7 @@
 				<key>BundlePath</key>
 				<string>LucyRTL8125Ethernet.kext</string>
 				<key>Comment</key>
-				<string>com.mieze.LucyRTL8125Ethernet v1.2.3</string>
+				<string>com.insanelymac.LucyRTL8125Ethernet v1.2.300</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -358,7 +358,7 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
-				<string>LucyRTL8125Ethernet.kext/Contents/Info.plist</string>
+				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -366,7 +366,7 @@
 				<key>BundlePath</key>
 				<string>AMDRyzenCPUPowerManagement.kext</string>
 				<key>Comment</key>
-				<string>AMDRyzenCPUPowerManagement v0.7.1</string>
+				<string>wtf.spinach.AMDRyzenCPUPowerManagement v0.7.1</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -376,7 +376,7 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
-				<string>AMDRyzenCPUPowerManagement.kext/Contents/Info.plist</string>
+				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -384,7 +384,7 @@
 				<key>BundlePath</key>
 				<string>AmdTscSync.kext</string>
 				<key>Comment</key>
-				<string>AmdTscSync v2.0.0</string>
+				<string>org.driver.AmdTscSync v2.0.0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -394,7 +394,7 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
-				<string>AmdTscSync.kext/Contents/Info.plist</string>
+				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -402,7 +402,7 @@
 				<key>BundlePath</key>
 				<string>AppleMCEReporterDisabler.kext</string>
 				<key>Comment</key>
-				<string>AppleMCEReporterDisabler v1.2</string>
+				<string>org.xlnc.disabler.MCEReporter v1.2</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -412,7 +412,7 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
-				<string>AppleMCEReporterDisabler.kext/Contents/Info.plist</string>
+				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -420,7 +420,7 @@
 				<key>BundlePath</key>
 				<string>RestrictEvents.kext</string>
 				<key>Comment</key>
-				<string>as.vit9696.RestrictEvents v1.1.6</string>
+				<string>as.vit9696.RestrictEvents v1.1.7</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -430,7 +430,7 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
-				<string>RestrictEvents.kext/Contents/Info.plist</string>
+				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -438,7 +438,7 @@
 				<key>BundlePath</key>
 				<string>NVMeFix.kext</string>
 				<key>Comment</key>
-				<string>as.vit9696.NVMeFix v1.1.3</string>
+				<string>org.acidanthera.NVMeFix v1.1.4</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -448,7 +448,7 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
-				<string>NVMeFix.kext/Contents/Info.plist</string>
+				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -456,7 +456,7 @@
 				<key>BundlePath</key>
 				<string>USBToolBox.kext</string>
 				<key>Comment</key>
-				<string>USBToolBox v1.2.0</string>
+				<string>com.dhinakg.USBToolBox.kext v1.2.0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -466,7 +466,7 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
-				<string>USBToolBox.kext/Contents/Info.plist</string>
+				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -474,7 +474,7 @@
 				<key>BundlePath</key>
 				<string>UTBDefault.kext</string>
 				<key>Comment</key>
-				<string>UTBDefault v1.0</string>
+				<string>com.dhinakg.USBToolBox.injector v1.0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -484,7 +484,7 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
-				<string>UTBDefault.kext/Contents/Info.plist</string>
+				<string>Contents/Info.plist</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -525,37 +525,11 @@
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
-			<dict>
-				<key>Automatic</key>
-				<true/>
-				<key>Platform</key>
-				<dict>
-					<key>EAX</key>
-					<integer>0</integer>
-					<key>EBX</key>
-					<integer>0</integer>
-					<key>ECX</key>
-					<integer>0</integer>
-					<key>EDX</key>
-					<integer>0</integer>
-				</dict>
-			</dict>
+			<data>
+			</data>
 			<key>Cpuid1Mask</key>
-			<dict>
-				<key>Automatic</key>
-				<true/>
-				<key>Platform</key>
-				<dict>
-					<key>EAX</key>
-					<integer>0</integer>
-					<key>EBX</key>
-					<integer>0</integer>
-					<key>ECX</key>
-					<integer>0</integer>
-					<key>EDX</key>
-					<integer>0</integer>
-				</dict>
-			</dict>
+			<data>
+			</data>
 			<key>DummyPowerManagement</key>
 			<true/>
 			<key>MaxKernel</key>
@@ -1609,8 +1583,6 @@
 				<integer>0</integer>
 			</dict>
 		</array>
-		<key>Processor</key>
-		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
@@ -1630,8 +1602,6 @@
 			<key>ExtendBTFeatureFlags</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
-			<false/>
-			<key>ForceAquantiaBoot</key>
 			<false/>
 			<key>ForceSecureBootScheme</key>
 			<false/>
@@ -1685,49 +1655,14 @@
 			<true/>
 			<key>ApplePanic</key>
 			<true/>
-			<key>DisableWatchdog</key>
-			<true/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
 			<key>LogModules</key>
 			<array>
-				<string>*</string>
+				<string></string>
 			</array>
-			<key>SysReport</key>
-			<dict>
-				<key>Audio</key>
-				<false/>
-				<key>DataHub</key>
-				<false/>
-				<key>FW</key>
-				<false/>
-				<key>HDA</key>
-				<false/>
-				<key>I2C</key>
-				<false/>
-				<key>I2CDev</key>
-				<false/>
-				<key>IODEV</key>
-				<false/>
-				<key>LpcBios</key>
-				<false/>
-				<key>Memory</key>
-				<true/>
-				<key>PCI</key>
-				<false/>
-				<key>Platform</key>
-				<false/>
-				<key>SMBIOS</key>
-				<false/>
-				<key>Slideshow</key>
-				<false/>
-				<key>UEFI</key>
-				<false/>
-				<key>Video</key>
-				<false/>
-			</dict>
 			<key>Target</key>
 			<integer>67</integer>
 		</dict>
@@ -2220,24 +2155,12 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
-			<key>ActivateHibernation</key>
-			<false/>
-			<key>AvoidHighAlloc</key>
-			<false/>
 			<key>DisableSecurityPolicy</key>
 			<false/>
-			<key>DisableSingleMapping</key>
-			<false/>
-			<key>EnableSafeModeSlide</key>
-			<true/>
 			<key>EnableVectorAcceleration</key>
 			<true/>
 			<key>EnableVmx</key>
 			<false/>
-			<key>EnableWriteUnprotector</key>
-			<true/>
-			<key>EnterSetupMode</key>
-			<true/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>ForceOcWriteFlash</key>
@@ -2246,26 +2169,10 @@
 			<false/>
 			<key>IgnoreInvalidFlexRatio</key>
 			<true/>
-			<key>ProvideCurrentCpuInfo</key>
-			<true/>
-			<key>ProvideCustomSlide</key>
-			<true/>
-			<key>RebuildAppleMemoryMap</key>
-			<true/>
 			<key>ReleaseUsbOwnership</key>
 			<true/>
-			<key>RequestUparGradBootArgument</key>
-			<false/>
 			<key>ResizeGpuBars</key>
 			<integer>-1</integer>
-			<key>ResizeUsePrefetch</key>
-			<false/>
-			<key>SetupVirtualMap</key>
-			<false/>
-			<key>SignalAppleOS</key>
-			<false/>
-			<key>SyncRuntimePermissions</key>
-			<false/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
