@@ -1596,7 +1596,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v alcid=17 agdpmod=pikera keepsyms=1 npci=0x2000 hibernatecompat=0</string>
+				<string>alcid=17 agdpmod=pikera keepsyms=1 npci=0x2000 hb=0</string>
 				<key>csr-active-config</key>
 				<data>
 				ZwAAAA==
