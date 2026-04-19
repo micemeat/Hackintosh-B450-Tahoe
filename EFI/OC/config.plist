@@ -46,9 +46,38 @@
 				<key>Path</key>
 				<string>SSDT-AMD-AOD.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AMD RX 5600 XT (Navi/MYRTLE) GPU power table</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-MYRTLE.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AMD RX 5600 XT GPU supplemental table</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-MYRTLE-SUPP.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
-		<array/>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Drop TPM2 table to prevent macOS issues</string>
+				<key>Enabled</key>
+				<true/>
+				<key>OemTableId</key>
+				<string>AAAAAa==</string>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<string>TPM2</string>
+			</dict>
+		</array>
 		<key>Patch</key>
 		<array/>
 		<key>Quirks</key>
