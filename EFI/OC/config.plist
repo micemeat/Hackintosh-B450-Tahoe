@@ -112,7 +112,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string>com.reddit.barbarian.Lilu v1.7.2</string>
+				<string>Kernel patcher</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -130,7 +130,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string>as.vit9696.VirtualSMC v1.3.7</string>
+				<string>SMC emulator</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -148,7 +148,7 @@
 				<key>BundlePath</key>
 				<string>SMCSuperIO.kext</string>
 				<key>Comment</key>
-				<string>as.vit9696.SMCSuperIO v1.3.7</string>
+				<string>Fan/temperature monitoring</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -246,7 +246,7 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>com.lvs1974.WhateverGreen v1.7.0</string>
+				<string>GPU patches for Navi</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -264,7 +264,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>as.vit9696.AppleALC v1.9.7</string>
+				<string>Audio codec (ALC892)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -372,7 +372,7 @@
 				<key>BundlePath</key>
 				<string>RestrictEvents.kext</string>
 				<key>Comment</key>
-				<string>as.vit9696.RestrictEvents v1.1.6</string>
+				<string>Block unwanted processes</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -390,7 +390,7 @@
 				<key>BundlePath</key>
 				<string>NVMeFix.kext</string>
 				<key>Comment</key>
-				<string>as.vit9696.NVMeFix v1.1.3</string>
+				<string>NVMe SSD compatibility</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -453,6 +453,8 @@
 				<string>algrey | Force cpuid_cores_per_package to constant (user-specified) | 10.13-10.14</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -479,6 +481,8 @@
 				<data>
 				//////8A
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -491,6 +495,8 @@
 				<string>algrey | Force cpuid_cores_per_package to constant (user-specified) | 10.15-11.0</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -517,6 +523,8 @@
 				<data>
 				//////8A
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -529,6 +537,8 @@
 				<string>algrey | Force cpuid_cores_per_package to constant (user-specified) | 12.0-13.2</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -554,6 +564,8 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -566,6 +578,8 @@
 				<string>algrey | Force cpuid_cores_per_package to constant (user-specified) | 13.3+</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -592,6 +606,8 @@
 				<data>
 				//////8=
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -604,6 +620,8 @@
 				<string>algrey | _commpage_populate | Remove rdmsr | 10.13+</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -628,6 +646,8 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -640,6 +660,8 @@
 				<string>algrey | _cpuid_set_cache_info | Set CPUID proper instead of 4 | 10.13+</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -664,6 +686,8 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -676,6 +700,8 @@
 				<string>algrey | _cpuid_set_generic_info | Remove wrmsr(0x8B) | 10.13+</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -700,6 +726,8 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -712,6 +740,8 @@
 				<string>algrey | _cpuid_set_generic_info | Replace rdmsr(0x8B) with constant 186 | 10.13+</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -736,6 +766,8 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -748,6 +780,8 @@
 				<string>algrey | _cpuid_set_generic_info | Set flag=1 | 10.13+</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -772,6 +806,8 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -784,6 +820,8 @@
 				<string>algrey | _cpuid_set_generic_info | Disable check to allow leaf7 | 10.13+</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -808,6 +846,8 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -820,6 +860,8 @@
 				<string>algrey | _cpuid_set_generic_info | Disable check to allow leaf7 | 15.0+</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -844,6 +886,8 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -856,6 +900,8 @@
 				<string>algrey | _cpuid_set_info | GenuineIntel to AuthenticAMD | 10.13-11.0</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -880,6 +926,8 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -892,6 +940,8 @@
 				<string>Goldfish64, algrey | Bypass GenuineIntel check panic | 12.0+</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -917,6 +967,8 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -929,6 +981,8 @@
 				<string>algrey | _cpuid_set_cpufamily | Force CPUFAMILY_INTEL_PENRYN | 10.13-11.2</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -954,6 +1008,8 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -966,6 +1022,8 @@
 				<string>algrey | _cpuid_set_cpufamily | Force CPUFAMILY_INTEL_PENRYN | 11.3+</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -991,6 +1049,8 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1003,6 +1063,8 @@
 				<string>algrey | _i386_init | Remove 3 rdmsr calls | 10.13+</string>
 				<key>Count</key>
 				<integer>0</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -1029,6 +1091,8 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1041,6 +1105,8 @@
 				<string>algrey, XLNC | Remove version check and panic | 10.13+</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -1065,6 +1131,8 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1077,6 +1145,8 @@
 				<string>CaseySJ | probeBusGated | Disable 10 bit tags | 12.0-15.x</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -1103,6 +1173,8 @@
 				<data>
 				AAAPAA==
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1115,6 +1187,8 @@
 				<string>CaseySJ | probeBusGated | Disable 10 bit tags | 26.0+</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -1141,6 +1215,8 @@
 				<data>
 				AAAPAA==
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1153,6 +1229,8 @@
 				<string>CaseySJ | IOPCIIsHotplugPort | Fix PCI bus enumeration on AM5 | 13.0+</string>
 				<key>Count</key>
 				<integer>1</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
@@ -1179,6 +1257,8 @@
 				<data>
 				AAD/AA==
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1191,6 +1271,8 @@
 				<string>Visual | thread_quantum_expire, thread_unblock, thread_invoke | Remove non-monotonic time panic | 12.0+</string>
 				<key>Count</key>
 				<integer>3</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -1217,6 +1299,8 @@
 				<data>
 				AAAAAAAAAAAAAAAAAAD///////8=
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1229,6 +1313,8 @@
 				<string>Visual | thread_invoke, thread_dispatch | Remove non-monotonic time panic | 12.0+</string>
 				<key>Count</key>
 				<integer>2</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -1255,6 +1341,8 @@
 				<data>
 				AAAAAAAAAP///////w==
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1264,9 +1352,11 @@
 				<key>Base</key>
 				<string>_thread_quantum_expire, _thread_invoke</string>
 				<key>Comment</key>
-				<string>laobamac | thread struct offset 0x480→0x490 | Tahoe 25.4+</string>
+				<string>laobamac | thread struct offset 0x480 to 0x490 | Tahoe 25.4+</string>
 				<key>Count</key>
 				<integer>2</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -1293,6 +1383,8 @@
 				<data>
 				//////////////8=
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1305,6 +1397,8 @@
 				<string>algrey | _mtrr_update_action | fix PAT | 10.13+</string>
 				<key>Count</key>
 				<integer>0</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -1330,6 +1424,8 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1342,6 +1438,8 @@
 				<string>Shaneee | _mtrr_update_action | Fix PAT | 10.13+</string>
 				<key>Count</key>
 				<integer>0</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
@@ -1367,6 +1465,8 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1379,6 +1479,8 @@
 				<string>Algrey / Zormeister | _mtrr_update_action | Fix PAT | 15.0+</string>
 				<key>Count</key>
 				<integer>0</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -1404,6 +1506,8 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1416,6 +1520,8 @@
 				<string>Shaneee / Zormeister | _mtrr_update_action | Fix PAT | 15.0+</string>
 				<key>Count</key>
 				<integer>0</integer>
+				<key>Data</key>
+				<string></string>
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
@@ -1441,6 +1547,8 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+				<key>Search</key>
+				<string></string>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1687,9 +1795,9 @@
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
-			<false/>
+			<integer>0</integer>
 			<key>MLB</key>
-			<string>F5KZQ4B3U02M2HKSN</string>
+			<string>F5KZ8S7K0LX448WA5Z</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
@@ -1705,9 +1813,9 @@
 			<key>SystemProductName</key>
 			<string>MacPro7,1</string>
 			<key>SystemSerialNumber</key>
-			<string>F5KZQ4B3U02M</string>
+			<string>F5KZ8S7K0LX44</string>
 			<key>SystemUUID</key>
-			<string>04F6BA3E-CE0B-4754-9A03-8318FD7C56ED</string>
+			<string>845D6BD2-19C3-4D49-97E8-5AD3D6C9B2F2</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1969,16 +2077,28 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
+			<key>ActivateHibernation</key>
+			<false/>
 			<key>ActivateHpetSupport</key>
+			<false/>
+			<key>AvoidHighAlloc</key>
 			<false/>
 			<key>DisableSecurityPolicy</key>
 			<false/>
+			<key>DisableSingleMapping</key>
+			<false/>
+			<key>EnableSafeModeSlide</key>
+			<true/>
 			<key>EnableVectorAcceleration</key>
 			<true/>
 			<key>EnableVmx</key>
 			<false/>
+			<key>EnableWriteUnprotector</key>
+			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
+			<key>ForceExitBootServices</key>
+			<false/>
 			<key>ForceOcWriteFlash</key>
 			<false/>
 			<key>ForgeUefiSupport</key>
@@ -1991,12 +2111,18 @@
 			<false/>
 			<key>RequestBootVarRouting</key>
 			<true/>
+			<key>RequestUparGradBootArgument</key>
+			<false/>
+			<key>ResizeAppleGpuBars</key>
+			<integer>-1</integer>
 			<key>ResizeGpuBars</key>
 			<integer>-1</integer>
 			<key>ResizeUsePciRbIo</key>
 			<false/>
 			<key>ShimRetainProtocol</key>
 			<false/>
+			<key>SyncRuntimePermissions</key>
+			<true/>
 			<key>TscSyncTimeout</key>
 			<integer>50000</integer>
 			<key>UnblockFsConnect</key>
