@@ -8,9 +8,9 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Plugin for CPU power management</string>
+				<string>Plugin for CPU power management — NOT NEEDED for AMD, ProvideCurrentCpuInfo handles it</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-PLUG.aml</string>
 			</dict>
@@ -21,6 +21,14 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-EC-USBX.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Sleep/wake fix for MSI PTXH USB controller</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-SLEEP-PTXH.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -136,7 +144,7 @@
 			<key>ResizeAppleGpuBars</key>
 			<integer>-1</integer>
 			<key>SetupVirtualMap</key>
-			<false/>
+			<true/>
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
