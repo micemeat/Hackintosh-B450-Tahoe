@@ -1800,7 +1800,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v alcid=17 agdpmod=pikera keepsyms=1 hb=0 revpatch=sbv,pci</string>
+				<string>-v alcid=17 agdpmod=pikera keepsyms=1 hb=0 revpatch=sbv,pci debug=0x100</string>
 				<key>csr-active-config</key>
 				<data>
 				ZwAAAA==
