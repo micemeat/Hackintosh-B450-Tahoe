@@ -8,14 +8,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Plugin for CPU power management — NOT NEEDED for AMD, ProvideCurrentCpuInfo handles it</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-PLUG.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>EC and USBX for desktop</string>
 				<key>Enabled</key>
 				<true/>
@@ -28,7 +20,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-SLEEP-PTXH.aml</string>
+				<string>SSDT-SLEEP.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
