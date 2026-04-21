@@ -1092,10 +1092,8 @@
 				<data>
 				AAAAAAAA/////w==
 				</data>
-				<key>MaxKernel</key>
-				<string>25.99.99</string>
 				<key>MinKernel</key>
-				<string>21.0.0</string>
+				<string>24.0.0</string>
 				<key>Replace</key>
 				<data>
 				kJCQkJCQMdKzAQ==
@@ -1129,10 +1127,8 @@
 				<data>
 				/////wAAAP///wA=
 				</data>
-				<key>MaxKernel</key>
-				<string>20.3.0</string>
 				<key>MinKernel</key>
-				<string>17.0.0</string>
+				<string>24.0.0</string>
 				<key>Replace</key>
 				<data>
 				u7xP6njpXQAAAJA=
